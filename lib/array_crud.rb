@@ -29,8 +29,8 @@ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-array = ["Tacos", "Pizza", "Pasta", "Burgers"]
-array.index("Pasta")
+array = ["Tacos", "Pizza", "am", "Pasta", "Burgers"]
+array.index(2)
 end
 
 def retrieve_first_element_from_array(array)
