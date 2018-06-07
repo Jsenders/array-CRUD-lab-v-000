@@ -30,15 +30,15 @@ end
 
 def retrieve_element_from_index(array, index_number)
 array = ["Tacos", "Pizza", "Pasta", "Burgers"]
-array.index_number("Pasta")
+array.index_number["Pasta"]
 end
 
 def retrieve_first_element_from_array(array)
-  array = ["Tacos", "Pizza", "Pasta", "Burgers"]
+  array = ["wow", "Tacos", "Pizza", "Pasta", "Burgers"]
 array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  array = ["Tacos", "Pizza", "Pasta", "Burgers"]
-  array[3]
+  array = ["Tacos", "Pizza", "Pasta", "Burgers", "arrays!"]
+  array[4]
 end
