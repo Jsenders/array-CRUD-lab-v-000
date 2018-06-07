@@ -31,7 +31,6 @@ end
 def retrieve_element_from_index(array, index_number)
 array = ["Tacos", "Pizza", "Pasta", "Burgers"]
 index_number = [2]
-array.index_number["Pasta"]
 end
 
 def retrieve_first_element_from_array(array)
